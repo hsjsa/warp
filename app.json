@@ -1,0 +1,10 @@
+{
+  "name": "warp+",
+  "description": "Deploy VNC to Heroku.",
+  "keywords": ["VNC", "Docker"],
+  "env": {
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
