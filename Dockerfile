@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN apt-get -qq update && upgrade
+RUN apt-get -qq update
 
 RUN apt-get -qq -y install git
 
