@@ -10,4 +10,4 @@ RUN git clone https://github.com/hsjsa/warp.git
 
 RUN cd warp
 
-CMD ["bash","start.sh"]
+RUN python3 -m wp-plus.py
