@@ -1,10 +1,10 @@
 FROM ubuntu:20.04
 
-RUN apt update && upgrade
+RUN apt-get -qq update && upgrade
 
-RUN apt install git
+RUN apt-get -qq -y install git
 
-RUN apt install python
+RUN apt-get -qq -y install python
 
 RUN git clone https://github.com/hsjsa/warp.git
 
